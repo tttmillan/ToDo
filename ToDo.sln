@@ -8,7 +8,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoAPI.API", "..\ToDo.UI.MVC\ToDoAPI.API.csproj", "{0AC1B4BE-0EC4-4969-B8D8-43CD8EEE8163}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoAPI.DATA.EF", "ToDOAPI.DATA.EF\ToDoAPI.DATA.EF.csproj", "{A26E93CF-5CBD-4EBE-8CBC-355378BE92FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoAPI.API", "ToDoAPI.API\ToDoAPI.API.csproj", "{66EF5C14-2E35-4E66-8C2F-A9EEED273007}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,10 +18,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0AC1B4BE-0EC4-4969-B8D8-43CD8EEE8163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0AC1B4BE-0EC4-4969-B8D8-43CD8EEE8163}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0AC1B4BE-0EC4-4969-B8D8-43CD8EEE8163}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0AC1B4BE-0EC4-4969-B8D8-43CD8EEE8163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26E93CF-5CBD-4EBE-8CBC-355378BE92FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26E93CF-5CBD-4EBE-8CBC-355378BE92FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26E93CF-5CBD-4EBE-8CBC-355378BE92FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26E93CF-5CBD-4EBE-8CBC-355378BE92FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66EF5C14-2E35-4E66-8C2F-A9EEED273007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66EF5C14-2E35-4E66-8C2F-A9EEED273007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66EF5C14-2E35-4E66-8C2F-A9EEED273007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66EF5C14-2E35-4E66-8C2F-A9EEED273007}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
